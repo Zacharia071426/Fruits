@@ -1,0 +1,50 @@
+*{
+    margin: 0; 
+    border-radius: 0;
+}
+
+.container{
+    margin: 0 auto;
+    height: 400px;
+    width: 300px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    margin-top: 20vh;
+    padding: 20px;
+}
+
+h1{
+    padding: 10px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    margin: 0 auto;
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button:hover{
+    scale: 1.07;
+    cursor: pointer;
+}
+
+#list{
+    list-style: disc;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
